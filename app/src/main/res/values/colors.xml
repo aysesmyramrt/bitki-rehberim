@@ -1,0 +1,13 @@
+<resources>
+    <!-- Mevcut renkler -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow_primary">#E4D918</color>
+    <color name="yellow_dark">#E2D718</color>
+    <color name="ev_bitkileri_color">#4CAF50</color>
+    <color name="bahce_bitkileri_color">#FF5722</color>
+    <color name="tarla_bitkileri_color">#450404</color>
+
+    <!-- Yeni renkler -->
+    <color name="splash_text_color">#006400</color>  <!-- Koyu yeşil -->
+</resources>

@@ -1,0 +1,91 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnEvBitkileri"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:text="EV BİTKİLERİ "
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/ev_bitkileri_color"
+        app:cornerRadius="24dp"
+        app:layout_constraintHeight_percent="0.18"
+        app:layout_constraintBottom_toTopOf="@id/btnBahceBitkileri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btnBahceBitkileri"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginVertical="8dp"
+        android:text="BAHÇE BİTKİLERİ"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/bahce_bitkileri_color"
+        app:cornerRadius="24dp"
+        app:layout_constraintHeight_percent="0.18"
+        app:layout_constraintBottom_toTopOf="@id/btnTarlaBitkileri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnEvBitkileri"/>
+
+    <Button
+        android:id="@+id/btnTarlaBitkileri"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:text="TARLA BİTKİLERİ"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/tarla_bitkileri_color"
+        app:cornerRadius="24dp"
+        app:layout_constraintHeight_percent="0.18"
+        app:layout_constraintBottom_toTopOf="@id/btnSifaliBitkiler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnBahceBitkileri"/>
+
+    <Button
+        android:id="@+id/btnSifaliBitkiler"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#5717BF"
+        android:text="ŞİFALI BİTKİLER"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:cornerRadius="24dp"
+        app:layout_constraintBottom_toTopOf="@id/btnSeasonal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnTarlaBitkileri" />
+
+    <Button
+        android:id="@+id/btnSeasonal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:text="MEVSİMSEL ÖNERİLER"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:backgroundTint="#2196F3"
+        app:cornerRadius="24dp"
+        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnSifaliBitkiler"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

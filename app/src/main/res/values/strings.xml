@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bitki Rehberim</string>
+    <string name="farmer_icon">Çiftçi İkonu</string>
+    <string name="plant_icon">Bitki İkonu</string>
+</resources>
